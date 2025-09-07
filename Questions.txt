@@ -1,0 +1,13 @@
+**QUestions**
+
+camel case consistent and snake case consistent
+or a mix of the two
+
+I see I cant have an if if else, it only worked if it was if elif else or if if elif
+
+parenthesis around input function for .lower() function or not
+
+**issues I need to work on**
+
+when im using comparison operators I have a tendency to use "is" before the ==, <= , < etc, that "is" is unnecessary.
+I don't repeat the variable as often as I should 
