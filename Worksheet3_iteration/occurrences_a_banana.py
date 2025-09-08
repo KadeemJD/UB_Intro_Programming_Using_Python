@@ -5,23 +5,17 @@ Use a while loop to count the number of occurrences of the letter
  'a' in a string "banana".
 """
 
-Ustring = "banana"
-counter = 0
-total = 9
+user_string = "banana"
 occurrences = 0
+index=0
+
 #set up the while loop
-while "a" in Ustring:
-    counter = counter + 1
-    current_number= counter
-    occurrences = occurrences + current_number
-print(f"{occurrences}")
+while index < len(user_string):
+    letter = user_string[index]
+    if letter == 'a':
+        occurrences += 1
+        index += 1
+    elif letter != 'a':
+        index += 1
+print(f"The number of a's in {user_string} is {occurrences}.")
 
-
-
-
-"""
-I need to figure of how to count the number of "a's" in banana,as is the code 
-is running and outputting the number of a's, perhaps i need to look into some
-new functions.
-
-"""
