@@ -9,3 +9,50 @@ num = float(entry)
 whenever you write a program, write it piece by and piece and test it
 
 if you want to skip a line in output you would type and additional print() function before your print function so the presentation of output is presentable
+
+if you wrap your or's with parenthesis then indentation shouldnt matter
+
+"""
+Write a while loop to count the number of consonants in the string
+ "Computer". (hint: check while not vowel)
+"""
+
+# =============================================================================
+# word = "Computer"
+# count = 0
+# total = 0 #how many consonants
+# 
+# while count < len(word):
+#     if (word[count] != 'a' or 
+#         word[count] != 'e' or
+#         word[count] != 'i' or
+#         word[count] != 'o' or
+#         word[count] != 'u'):
+#         total = total + 1
+#     count = count + 1
+# 
+# print()
+# print(f"{total}")
+# =============================================================================
+        
+word = "Computer"
+count = 0
+total = 0 #how many consonants
+
+while count < len(word):
+    if word[count] not in ['a', 'e', 'i', 'o', 'u']:
+        total = total + 1
+    count = count + 1
+
+print()
+print(f"{total}")        
+
+
+#we want to print three rows of % with 6 columns, the problem right now is that when j reaches 6 it meets the condition
+i = 1
+
+while i <= 3:
+    print("%", end='')
+    i = i + 1
+    while j <= 6:
+
