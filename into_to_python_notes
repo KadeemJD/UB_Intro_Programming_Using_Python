@@ -1,1 +1,11 @@
 while loop
+
+while(True):
+    entry = input(Enter number or 'x' to quit: ")
+    if entry == 'x':
+        break
+num = float(entry)
+
+whenever you write a program, write it piece by and piece and test it
+
+if you want to skip a line in output you would type and additional print() function before your print function so the presentation of output is presentable
