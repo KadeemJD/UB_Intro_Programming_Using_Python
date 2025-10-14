@@ -1,3 +1,14 @@
 Function
 
-Default argument
+Default parameter
+ default parameters come after the required parameters
+
+where we run and call the functions is the global space
+and the defin ght efunctions are local environments
+
+names used in local env have no bearings on names used in another local env
+
+quiz thursday 16th October 2025
+testing on default parameters
+
+next unit is "classes" after function
